@@ -1,0 +1,282 @@
+/* Import external fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  width: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+a {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My CSS Code */
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Header start */
+.brand {
+  margin-bottom: 1rem;
+}
+
+.brand img {
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.brand p {
+  font-size: 1.2rem;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+header > p {
+  color: #686969;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+/* Header end */
+
+/* Container start */
+.container {
+  display: grid;
+  /* gap: 1rem; */
+}
+
+.container section h2 {
+  font-family: "Covered by Your Grace", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.8rem;
+  border-top: 2px solid black;
+}
+/* Container end */
+
+/* Projects start */
+section#projects ul li {
+  padding: 0.5rem;
+  border-top: 2px solid black;
+  background-color: #e8ebef;
+}
+/* Projects end */
+
+/* Work Experience start */
+section#work-experience .work-experience-container .work-experience-item {
+  padding: 0.5rem;
+  border-top: 2px solid black;
+  background-color: #e8ebef;
+}
+
+section#work-experience .work-experience-container .work-experience-item h3 {
+  font-family: "Covered by Your Grace", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+section#work-experience .work-experience-container .work-experience-item a {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  color: blue;
+}
+/* Work Experience end */
+
+/* Education start */
+
+section#education p {
+  padding: 0.5rem;
+}
+
+section#education ul {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+section#education ul li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+section#education ul li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+/* Education end */
+
+/* Review start */
+section#reviews .reviews-container {
+  display: grid;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+section#reviews .reviews-container .reviews-item {
+  border: 2px solid black;
+  border-radius: 28px;
+  padding: 1rem;
+}
+
+section#reviews .reviews-container .reviews-item p:first-child {
+  margin-bottom: 1rem;
+}
+
+section#reviews .reviews-container .reviews-item .name,
+.role {
+  color: #686969;
+}
+/* Review end */
+
+/* Footer start */
+footer {
+  text-align: center;
+  font-family: "Covered by Your Grace", sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+/* Footer end */
