@@ -1,6 +1,6 @@
-# Basic HTML Website
+# Personal Portfolio
 
-Solution for the [Basic HTML Website](https://roadmap.sh/projects/basic-html-website) challenge from [roadmap.sh](https://roadmap.sh/)
+Solution for the [Personal Portfolio](https://roadmap.sh/projects/portfolio-website) challenge from [roadmap.sh](https://roadmap.sh/)
 
 ## How to Run
 
