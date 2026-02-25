@@ -7,11 +7,19 @@
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic HTML Website</title>
+    <!-- Exernal CSS -->
+     <link rel="stylesheet" href="./contact.css">
   </head>
   <body>
     <header>
       <nav>
-        <p>John Doe</p>
+        <div class="brand">
+          <img
+            src="./images/default-pp.jpg"
+            alt="Profile Picture"
+            class="brand-img"
+          />
+          <p>John Doe</p>
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./projects.html">Projects</a></li>
@@ -21,21 +29,23 @@
       </nav>
     </header>
     <main>
-      <h1>Contact</h1>
-      <form action="#">
-        <div><label for="name">Name</label></div>
-        <div><input type="text" name="name" id="name" /></div>
-        <div><label for="email">Email</label></div>
-        <div><input type="email" name="email" id="email" /></div>
-        <div><label for="message">Message</label></div>
-        <textarea
-          name="message"
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Write your message here..."
-        ></textarea>
-      </form>
+      <div class="container">
+        <h1>Contact</h1>
+        <form action="#">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Write your message here..."
+          ></textarea>
+        </form>
+      </div>
     </main>
     <footer>&copy; all rights reserved 2025</footer>
   </body>
